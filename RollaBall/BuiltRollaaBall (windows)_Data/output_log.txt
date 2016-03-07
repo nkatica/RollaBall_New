@@ -17,14 +17,20 @@ Loading C:\Users\Student\Desktop\Nejla-K\RollaBall_New\RollaBall\BuiltRollaaBall
 Platform assembly: C:\Users\Student\Desktop\Nejla-K\RollaBall_New\RollaBall\BuiltRollaaBall (windows)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Student\Desktop\Nejla-K\RollaBall_New\RollaBall\BuiltRollaaBall (windows)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\Student\Desktop\Nejla-K\RollaBall_New\RollaBall\BuiltRollaaBall (windows)_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.041 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Student\Desktop\Nejla-K\RollaBall_New\RollaBall\BuiltRollaaBall (windows)_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 188c -> priority: 1 
+  Thread -> id: 1f40 -> priority: 1 
+UnityException: Tag: Pick Up is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:CompareTag (string)
+  at PlayerController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
 UnityException: Tag: Pick Up is not defined.
   at (wrapper managed-to-native) UnityEngine.GameObject:CompareTag (string)
   at PlayerController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
