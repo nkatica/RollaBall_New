@@ -8,8 +8,10 @@ public class PlayerController : MonoBehaviour {
 	public Text countText;
 	public Text winText;
 
+
 	private Rigidbody rb;
 	private int count;
+
 
 
 	void Start ()
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 		count = 0;
 		SetCountText ();
 		winText.text = "";
+
 	}
 
 	void FixedUpdate ()
@@ -49,5 +52,7 @@ public class PlayerController : MonoBehaviour {
 			winText.text = "You Win!";
 		}
 	}
+	
 }
+
 
