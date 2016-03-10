@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI; 
 
 public class CountDown : MonoBehaviour {
-	float timeRemaining = 100;
+	float timeRemaining = 60;
 	public Text countDownText;
 	public Text loseText;
 
